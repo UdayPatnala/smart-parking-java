@@ -1,4 +1,4 @@
-# Smart Parking System (Java)
+# Smart Parking System (Java, No Maven)
 
 A parking slot allocation system demonstrating OOP design and data structures.
 
@@ -8,9 +8,14 @@ A parking slot allocation system demonstrating OOP design and data structures.
 - Data structures: HashMap, PriorityQueue
 - Allocation logic by vehicle type and nearest slot preference
 
-## Run
+## Run Demo
 
-```bash
-mvn test
-mvn -q exec:java -Dexec.mainClass="com.roadmap.parking.Main"
+```powershell
+.\run.ps1
+```
+
+## Run Tests
+
+```powershell
+.\run.ps1 -Test
 ```
